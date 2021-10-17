@@ -25,6 +25,7 @@ public class Main {
             System.out.println("Rating : "+buku.getRating());
             System.out.println("");
         }
+
         //Ubah Data Buku
         System.out.println("Ubah Data Buku : ");
         String isbn = input.next();
@@ -35,7 +36,7 @@ public class Main {
                buku.setRating(4);
                buku.setJudulBuku("7 in 1 Pemrograman Web Untuk Tingkat Lanjut");
                buku.setPengarang("Rohi Abdulloh");
-               buku.setTahunTerbit("2018");
+               buku.setTahunTerbit("2019");
                buku.setIsbn("1");
            }
         }
